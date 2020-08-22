@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6bdfa6560c387c408b7b7f00ea9a1c8f",
+    "revision": "b3b41acce0434c3e5dbb7f4f403be05d",
     "url": "/final-fantasy-pure-html-experiment/index.html"
   },
   {
-    "revision": "ad9efbfd54c1dcdf16fb",
-    "url": "/final-fantasy-pure-html-experiment/static/css/main.6baded23.chunk.css"
+    "revision": "7b3efbe403da8138f08c",
+    "url": "/final-fantasy-pure-html-experiment/static/css/main.c667e250.chunk.css"
   },
   {
     "revision": "8934ce8bcdc71809bdad",
@@ -16,12 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/final-fantasy-pure-html-experiment/static/js/2.79b9df45.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ad9efbfd54c1dcdf16fb",
+    "revision": "7b3efbe403da8138f08c",
     "url": "/final-fantasy-pure-html-experiment/static/js/main.50f28cea.chunk.js"
   },
   {
     "revision": "4900488b168080e8328c",
     "url": "/final-fantasy-pure-html-experiment/static/js/runtime-main.a01ad3ff.js"
+  },
+  {
+    "revision": "4891408affa04d4fadaae2faada1a639",
+    "url": "/final-fantasy-pure-html-experiment/static/media/bg.4891408a.png"
   },
   {
     "revision": "238f74a1f84f2f241b085f6ac09df4c4",
