@@ -2,6 +2,9 @@
 
 This is an experiment to simulate a classic JRPG battle (turn-based) using pure React without a Canvas. Why? just for fun.
 
+See [live demo](https://gengue.github.io/final-fantasy-pure-html-experiment/).
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
