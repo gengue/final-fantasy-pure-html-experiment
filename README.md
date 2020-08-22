@@ -1,3 +1,7 @@
+# Final Fantasy Battle
+
+This is an experiment to simulate a classic JRPG battle (turn-based) using pure React without a Canvas. Why? just for fun.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

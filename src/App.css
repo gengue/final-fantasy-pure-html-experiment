@@ -1,38 +1,163 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+.FF-Battle {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 100vh;
+}
+
+.FF-Battle-Background {
+  background-color: #282c34;
+  background: url(/bg.png) no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.FF-Battle-Enemy1 {
+  position: absolute;
+  left: 30px;
+  top: 100px;
+  height: 100px;
+  pointer-events: none;
+  height: 50%;
+  transform: scale(-1, 1);
+  /*animation: damage infinite 300ms linear;*/
+}
+
+
+.FF-Battle-Player1 {
+  position: absolute;
+  top: 40%;
+  height: 18%;
+  pointer-events: none;
+  /*animation: damage infinite 300ms linear;*/
+  /*animation: idle infinite 4s linear;*/
+  /*animation: attack infinite 2s linear;*/
+  transform: scale(-1, 1);
+}
+
+.FF-Hud {
+  position: absolute;
+  padding:0;
+  margin: 0;
+  width: calc(100% - 24px);
+  bottom: 0;
+  padding: 10px;
+  height: 20vh;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 6px;
+}
+
+.FF-Hud-Panel {
+  border: 2px solid white;
+  height: 20vh;
+  background: #151575ad;
+  font-size: 26px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.FF-Hud-Panel > ul {
+  margin: 8px;
+  padding: 0;
+  list-style-type: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.FF-Hud-Panel > ul > li.FF-Hud-Panel-Player,
+.FF-Hud-Panel > ul > li.FF-Hud-Panel-Action
+{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.FF-Hud-Panel > ul > li.FF-Hud-Panel-Player > span.name  {
+  flex-grow: 1;
+}
+
+meter {
+  margin-left: 5px;
+}
+
+
+@keyframes idle {
+  0% {
+    transform: scale(-1, 1) translate(0, 0);
   }
-  to {
-    transform: rotate(360deg);
+  20% {
+    transform: scale(-1, 1) translate(-8px, 0);
   }
+  40% {
+    transform: scale(-1, 1) translate(-8px, -12px);
+  }
+  80% {
+    transform: scale(-1, 1) translate(0, 12px);
+  }
+  100% {
+    transform: scale(-1, 1) translate(0, 0);
+  }
+}
+
+@keyframes attack {
+  0% {
+    transform: scale(-1, 1);
+    filter: drop-shadow(2px 4px 6px black);
+  }
+  20% {
+    transform: scale(-1, 1) translateX(200%);
+    filter: drop-shadow(2px 4px 6px black);
+  }
+  40% {
+    transform: scale(-1, 1) translateX(280%);
+    filter: drop-shadow(2px 4px 6px black);
+  }
+  60% {
+    transform: scale(-1, 1) translateX(300%);
+    filter: drop-shadow(2px 4px 6px black);
+  }
+  80% {
+    transform: scale(-1, 1) translateX(330%);
+    filter: drop-shadow(2px 4px 6px black);
+  }
+  100% {
+    transform: scale(-1, 1);
+    filter: drop-shadow(2px 4px 6px black);
+  }
+}
+
+
+@keyframes damage {
+  0% {
+    transform: scale(-1, 1) skew(0) translateX(0);
+    filter: grayscale(80%) blur(3px);
+  }
+  33% {
+    transform: scale(-1, 1) skew(20deg) translateX(-15px);
+    filter: grayscale(80%) blur(0);
+    /*filter: hue-rotate(130deg);*/
+  }
+  66% {
+    transform: scale(-1, 1) skew(-15deg) translateX(15px);
+    filter: grayscale(80%) blur(3px);
+    /*filter: hue-rotate(130deg);*/
+  }
+  100% {
+    transform: scale(-1, 1) skew(0) translateX(0);
+    filter: grayscale(80%) blur(0);
+    /*filter: hue-rotate(130deg);*/
+  }
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 6px 0 6px 8px;
+  border-color: transparent transparent transparent #d1deeb;
+  margin-right: 8px;
+}
+
+.selectiable {
+  display: inline-block;
+  width: 16px;
 }
