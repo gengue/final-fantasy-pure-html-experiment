@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b3b41acce0434c3e5dbb7f4f403be05d",
+    "revision": "6905613d1afa3c959a596ac6e00a23fa",
     "url": "/final-fantasy-pure-html-experiment/index.html"
   },
   {
-    "revision": "7b3efbe403da8138f08c",
-    "url": "/final-fantasy-pure-html-experiment/static/css/main.c667e250.chunk.css"
+    "revision": "a0462401d7ccc701c120",
+    "url": "/final-fantasy-pure-html-experiment/static/css/main.ab12a64a.chunk.css"
   },
   {
-    "revision": "8934ce8bcdc71809bdad",
-    "url": "/final-fantasy-pure-html-experiment/static/js/2.79b9df45.chunk.js"
+    "revision": "639247c427bf6d5e3d43",
+    "url": "/final-fantasy-pure-html-experiment/static/js/2.6a18b1f2.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/final-fantasy-pure-html-experiment/static/js/2.79b9df45.chunk.js.LICENSE.txt"
+    "url": "/final-fantasy-pure-html-experiment/static/js/2.6a18b1f2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7b3efbe403da8138f08c",
-    "url": "/final-fantasy-pure-html-experiment/static/js/main.50f28cea.chunk.js"
+    "revision": "a0462401d7ccc701c120",
+    "url": "/final-fantasy-pure-html-experiment/static/js/main.4ca974b5.chunk.js"
   },
   {
     "revision": "4900488b168080e8328c",

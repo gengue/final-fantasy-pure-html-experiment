@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/final-fantasy-pure-html-experiment/static/css/main.c667e250.chunk.css",
-    "main.js": "/final-fantasy-pure-html-experiment/static/js/main.50f28cea.chunk.js",
-    "main.js.map": "/final-fantasy-pure-html-experiment/static/js/main.50f28cea.chunk.js.map",
+    "main.css": "/final-fantasy-pure-html-experiment/static/css/main.ab12a64a.chunk.css",
+    "main.js": "/final-fantasy-pure-html-experiment/static/js/main.4ca974b5.chunk.js",
+    "main.js.map": "/final-fantasy-pure-html-experiment/static/js/main.4ca974b5.chunk.js.map",
     "runtime-main.js": "/final-fantasy-pure-html-experiment/static/js/runtime-main.a01ad3ff.js",
     "runtime-main.js.map": "/final-fantasy-pure-html-experiment/static/js/runtime-main.a01ad3ff.js.map",
-    "static/js/2.79b9df45.chunk.js": "/final-fantasy-pure-html-experiment/static/js/2.79b9df45.chunk.js",
-    "static/js/2.79b9df45.chunk.js.map": "/final-fantasy-pure-html-experiment/static/js/2.79b9df45.chunk.js.map",
+    "static/js/2.6a18b1f2.chunk.js": "/final-fantasy-pure-html-experiment/static/js/2.6a18b1f2.chunk.js",
+    "static/js/2.6a18b1f2.chunk.js.map": "/final-fantasy-pure-html-experiment/static/js/2.6a18b1f2.chunk.js.map",
     "index.html": "/final-fantasy-pure-html-experiment/index.html",
-    "precache-manifest.ab8ba4f7922691f6206f77f9d57f5c6e.js": "/final-fantasy-pure-html-experiment/precache-manifest.ab8ba4f7922691f6206f77f9d57f5c6e.js",
+    "precache-manifest.a6ab539e6922fd9278e77737d1842fb6.js": "/final-fantasy-pure-html-experiment/precache-manifest.a6ab539e6922fd9278e77737d1842fb6.js",
     "service-worker.js": "/final-fantasy-pure-html-experiment/service-worker.js",
-    "static/css/main.c667e250.chunk.css.map": "/final-fantasy-pure-html-experiment/static/css/main.c667e250.chunk.css.map",
-    "static/js/2.79b9df45.chunk.js.LICENSE.txt": "/final-fantasy-pure-html-experiment/static/js/2.79b9df45.chunk.js.LICENSE.txt",
+    "static/css/main.ab12a64a.chunk.css.map": "/final-fantasy-pure-html-experiment/static/css/main.ab12a64a.chunk.css.map",
+    "static/js/2.6a18b1f2.chunk.js.LICENSE.txt": "/final-fantasy-pure-html-experiment/static/js/2.6a18b1f2.chunk.js.LICENSE.txt",
     "static/media/App.css": "/final-fantasy-pure-html-experiment/static/media/bg.4891408a.png",
     "static/media/cloud.gif": "/final-fantasy-pure-html-experiment/static/media/cloud.238f74a1.gif",
     "static/media/dragon.gif": "/final-fantasy-pure-html-experiment/static/media/dragon.b50ac62f.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.a01ad3ff.js",
-    "static/js/2.79b9df45.chunk.js",
-    "static/css/main.c667e250.chunk.css",
-    "static/js/main.50f28cea.chunk.js"
+    "static/js/2.6a18b1f2.chunk.js",
+    "static/css/main.ab12a64a.chunk.css",
+    "static/js/main.4ca974b5.chunk.js"
   ]
 }
