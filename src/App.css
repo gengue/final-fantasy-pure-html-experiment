@@ -5,7 +5,7 @@
 
 .FF-Battle-Background {
   background-color: #282c34;
-  background: url(/bg.png) no-repeat;
+  background: url(bg.png) no-repeat;
   background-size: cover;
   height: 100%;
   width: 100%;
